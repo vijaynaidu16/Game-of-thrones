@@ -1,9 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const characterAPI = createSlice({
-    name: 'character',
+    name: 'characters',
     initialState: {
-        characters: null,
+        characters: [],
     },
     reducers : {
         addCharacters: (state, action) => {
