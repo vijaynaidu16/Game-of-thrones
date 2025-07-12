@@ -8,9 +8,9 @@ const NavBar = () => {
       <h1 className="Honk text-4xl"><a href="/">Game of Thrones</a></h1>
       <ul className="flex gap-4">
         <li>
-          <Button>
-            <a href="/house" target="_blank">House</a>
-          </Button>
+          <button>
+            <a href="/house" target="_blank" rel="noreferrer">House</a>
+          </button>
         </li>
         <li>
           <Button>
